@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/_203a66be35f8f98d154239b74adc18e"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/statusBluetoothTv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textAlignment="center"
+        android:textSize="20sp"
+        android:textColor="#000"/>
+
+    <ImageView
+        android:id="@+id/bluetoothIv"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <Button
+        android:id="@+id/onBtn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn On Bluetooth"
+        android:backgroundTint="@color/teal_200"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/offBtn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Turn Off Bluetooth"
+        android:backgroundTint="@color/teal_200"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/dBtn"
+        android:minWidth="200dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Discoverable"
+        style="@style/Base.Widget.AppCompat.Button.Colored"/>
+
+    <Button
+        android:id="@+id/pBtn"
+        style="@style/Base.Widget.AppCompat.Button.Colored"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:minWidth="200dp"
+        android:text="Get Paired Devices" />
+
+    <TextView
+        android:id="@+id/pairedTv"
+        android:minWidth="200dp"
+        android:text=""
+        android:textColor="@color/white"
+        android:backgroundTint="@color/teal_200"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/daBtn"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/teal_200"
+        android:text="Intrusion Data" />
+
+    <Button
+        android:id="@+id/nBtn"
+        android:layout_width="198dp"
+        android:layout_height="wrap_content"
+        android:shadowColor="@color/purple_200"
+        android:backgroundTint="@color/teal_200"
+        android:text="Lock/Unlock"/>
+
+</LinearLayout>
